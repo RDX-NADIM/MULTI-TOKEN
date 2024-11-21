@@ -96,6 +96,7 @@ def send_messages(tokens_file, target_id, messages_file, haters_name, speed):
                 print(Fore.CYAN + f"[📨] MMESSAGE : {Fore.LIGHTGREEN_EX}{full_message}")
                 print(Fore.CYAN + f"[⏰] TIIME: {Fore.LIGHTWHITE_EX}{current_time}")
                 print(Fore.GREEN + f"<<==========================================================================>>\n")
+               
                 print(Fore.YELLOW + "\033[1;32m<<===============✨❌✨🌐😈🛠️✨\033[1;91m\033[1;41m\033[1;33m\033[1;35m\033[1;37mOWNER BROKEN NADEEM\033[;0m\033[1;91m\033[1;92m\033[38;5;46m✨❌✨🌐😈🛠️✨==============>>")
                 print("\n" + ("-" * 80) + "\n")
             except requests.exceptions.RequestException:
